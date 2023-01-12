@@ -1,0 +1,75 @@
+h2{
+    color:darkred;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+h1, .redtext{
+    color:brown;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+#error {
+    background-color:rgb(120, 165, 42);
+    color:rgb(255, 0, 0);
+    font-size:x-large;
+}
+
+span, strong, em {
+    background-color: brown;
+    border-bottom: 1px;
+}
+
+p::first-letter{
+    color:brown;
+
+}
+
+article > p{
+    background-color: aqua;
+}
+
+.notebox{
+    border: 5px solid rgb(24, 2, 2);
+    padding: .5em;
+}
+
+.notebox.warning{
+    background-color:  orange;
+    font-weight: bold;
+}
+
+.notebox.danger{
+    background-color: brown;
+}
+
+header{
+    background-color: blueviolet;
+}
+
+mytitle{
+    background-color: chocolate;
+}
+
+/*unvisited link */
+a:link {
+color: red;
+a :visited
+}
+
+/*visited link */
+a:visited {
+    color:green
+}
+
+/*mouse over link */
+a:hover {
+    color:hotpink
+}
+
+/* selected link */
+a:active {
+    color:blue
+}
