@@ -9,15 +9,23 @@ header {
 footer {
     background-color: black;
     color: white;
+    height: 70px;
+    text-align: center;
 }
 
 .red {
-    background-color: brown;
+    background-image: url("../assets/images/bikinibottom.jpg");
+    background-repeat: repeat;
+    background-size: 10%;
 }
 
-footer{
-    height: 70px;
-    text-align: center;
-    
+
+h5{
+    font-size: small;
+    color: rgb(167, 166, 165);
+}
+
+h1{
+    font-weight: bold;
 }
 
