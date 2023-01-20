@@ -15,6 +15,9 @@ footer {
 
 .red {
     background-color: rgba(232, 212, 33, 0.984);
+    background-image: url("../assets/images/bikinibottom.jpg");
+    background-repeat: repeat;
+    background-size: 10%;
 
 }
 
